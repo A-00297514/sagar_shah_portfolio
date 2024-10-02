@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color: white;
+   /* background: url("../images/profilePic.jpg") no-repeat;  */
+   color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*css for home page*/
+
+.left{
+    font-size: 3rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 45px 0;
+    align-items: center;
+}
+
+.firstSection > div{
+    width: 35%;
+}
+
+.rightSection{
+   font-size: 3.5rem; 
+}
+
+.leftSection img{
+    height: 100%;
+    width: 75%;
+    margin: 30px 0;    
+}
+
+.resumeBtn{
+    margin-left: 20%;
+    margin-top: 0px;
+}
+.purple{
+    color: red;
+}
+
+/*css for home work experience and education*/
+.logoPic{
+    text-align: left;
+    justify-content: top;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left:50px ;
+    padding-right:100px ;
+}
+
+
+.cont{
+   
+    vertical-align: top;
+    padding-top: 5%;
+}
+
+.designation{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.duration{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*css for skills*/
+.skills h1{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.progress-bar{
+    background-color: black;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 50%;
+    /* background: red; */
+}
+
+.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #080808;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.java{
+    background: #ee1414;
+    animation: java 1s linear forwards;
+}
+
+.teaching{
+    background: #42e107;
+    animation: teaching 1s linear forwards;
+}
+
+.communication{
+    background: #ddef1e;
+    animation: communication 1s linear forwards;
+
+}
+
+.customer_service{
+    background: #1d0478;    
+    animation: customer_service 1s linear forwards;
+}
+
+.msOffice{
+    background: #70035a;
+    animation: msOffice 1s linear forwards;
+}
+
+.msExcel{
+    background: #ad6602;
+    animation: msExcel 1s linear forwards;
+}
+
+.java span{
+    border: 3px solid #ee1414;
+}
+
+.teaching span{
+    border:3px solid #42e107;
+}
+
+.communication span{
+    border:3px solid #ddef1e;
+}
+
+.customer_service span{
+    border:3px solid #1d0478;    
+}
+
+.msOffice span{
+    border:3px solid #70035a;
+}
+
+.msExcel span{
+    border:3px solid #ad6602;
+}
+
+@keyframes java{
+    100%{
+        width: 70%
+    }
+}
+
+@keyframes teaching{
+    100%{
+        width: 95%
+    }
+}
+
+@keyframes communication{
+    100%{
+        width: 90%
+    }
+}
+
+@keyframes customer_service{
+    100%{
+        width: 98%
+    }
+}
+
+@keyframes msOffice{
+    100%{
+        width: 83%
+    }
+}
+
+@keyframes msExcel{
+    100%{
+        width: 89%
+    }
+}
+
+/*css for about me page*/
+
+.about tr td {
+    padding: 10px;
+    font-size: x-large;
+    text-align: left;
+}
